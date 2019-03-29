@@ -25,3 +25,38 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+
+/*sourceSets {
+
+    //main {
+
+       // res.srcDirs = [
+
+                //'src/main/res/layout_large',
+
+
+
+              //  'src/main/res'
+
+      //  ]
+
+    }
+}
+sourceSets {
+
+    main {
+
+        res.srcDirs = [
+
+                'src/main/res/layout_xlarge',
+
+
+
+                'src/main/res'
+
+        ]
+
+    }
+}
+*/
